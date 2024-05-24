@@ -1,0 +1,38 @@
+.body{
+    width: 100%;
+}
+
+.content {
+    border: solid 3px black;
+    border-radius: 15px;
+    margin-top: 3%;
+    margin-left: 35%;
+    width: 30%;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    line-height: 1px;
+    color: grey;
+}
+
+.form{
+    margin-top: 10%;
+}
+
+.form input, textarea{
+    background-color: #DBDBDB;
+    border: none;
+    margin-top: 1%;
+    height: 5%;
+    width: 75%;
+}
+
+.form button{
+    background-color: #1E65A1;
+    color: white;
+    margin-top: 1%;
+    width: 75%;
+    height: 8%;
+}

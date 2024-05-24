@@ -14,14 +14,14 @@
             </div>
             <div class="form">
                 <form>
-                    <label for="key">Cypher key</label><br>
-                    <input id="shift" name="key" type="text" /><br><br>
+                    <label for="shift">Cypher key</label><br>
+                    <input id="shift" name="shift" type="text" /><br><br>
                     <textarea id="text" style="height: 25%;"></textarea><br><br>
-                    <button type="submit" name="Cypher" onclick="applyCaesarCipher()">Cypher</button>
+                    <button type="button" id="Cypher" name="Cypher" onclick="applyCaesarCipher()" >Cypher</button>
                 </form>
             </div>
             <div class="ceasar-result">
-                <p id="result"></p>
+                <p id="result" style="color: green;"></p>
             </div>
         </div>
     </body>

@@ -4,8 +4,8 @@ context('Hello World!', () => {
         cy.visit('../../app/index.html');
     });
 
-    it('p should have text Hello World!', () => {
-        cy.get('p').should('have.text', 'Caesar Cypher');
+    it('title should have text Caesar Cypher', () => {
+        cy.dataCy('title-test').should('have.text', 'Caesar Cypher');
     });
 
     it('ceasar compute should be correct', () => {

@@ -100,6 +100,7 @@ context('lightbox testing', () => {
         cy.dataCy('submit-comments').click()
 
         cy.dataCy('delete-comments-1').click()
+        cy.dataCy('comments-body-1').should('have.text', 'Cypress is awesome3!');
     });
 })
    

@@ -9,10 +9,10 @@ context('Hello World!', () => {
     });
 
     it('ceasar compute should be correct', () => {
-        cy.get('#shift').type('6');
-        cy.get('#text').type('Hello World!');
-        cy.get('#Cypher').click()
-        cy.get('#result').should('have.text', 'Nkrru Cuxrj!');
+        cy.dataCy('shift-test').type('6');
+        cy.dataCy('text-test').type('Hello World!');
+        cy.dataCy('button-test').click()
+        cy.dataCy('result-test').should('have.text', 'Nkrru Cuxrj!');
     });
 })
    
